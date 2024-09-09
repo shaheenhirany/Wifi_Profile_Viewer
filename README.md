@@ -1,3 +1,4 @@
+```markdown
 # WiFiProfileViewer
 
 A Python script to retrieve Wi-Fi passwords for saved network profiles on Windows using the `netsh` command. The script allows users to view the password for a specified Wi-Fi network and can repeatedly check different networks as needed.
@@ -19,30 +20,52 @@ A Python script to retrieve Wi-Fi passwords for saved network profiles on Window
 
    ```bash
    git clone https://github.com/shaheenhirany/WiFiProfileViewer.git
+   ```
 
 2. Navigate to the project directory:
-cd WiFiProfileViewer
+
+   ```bash
+   cd WiFiProfileViewer
+   ```
 
 3. No additional dependencies are required for this script.
 
-Usage
-Run the script:
+## Usage
 
-python wifiprofileviewer.py
+1. Run the script:
 
-Enter the name of the Wi-Fi network when prompted.
+   ```bash
+   python wifiprofileviewer.py
+   ```
 
-The script will display the Wi-Fi password if available.
+2. Enter the name of the Wi-Fi network when prompted.
 
-You can choose to check other Wi-Fi networks or exit the script.
+3. The script will display the Wi-Fi password if available.
 
-Example:
+4. You can choose to check other Wi-Fi networks or exit the script.
+
+**Example:**
+
+```
 Powered by SHAHEEN HIRANI
 
 Enter the Wi-Fi name: MyNetwork
 
 [Output with Wi-Fi details]
+```
 
-Error Handling:  If the Wi-Fi name does not exist or if there are permission issues, the script will display an error message.
+## Error Handling
 
-Author: Shaheen Hirani  Email: shaheen.nhirani@gmail.com
+- If the Wi-Fi name does not exist or if there are permission issues, the script will display an error message.
+
+## Author
+
+- **Shaheen Hirani**  
+  Email: [shaheen.nhirani@gmail.com](mailto:shaheen.nhirani@gmail.com)
+
+---
+
+*Powered by SHAHEEN HIRANI*
+```
+
+This version includes all necessary details with proper formatting and clearer instructions. If you need any more changes, just let me know!
