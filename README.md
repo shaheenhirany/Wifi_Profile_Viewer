@@ -1,4 +1,3 @@
-```markdown
 # WiFiProfileViewer
 
 A Python script to retrieve Wi-Fi passwords for saved network profiles on Windows using the `netsh` command. The script allows users to view the password for a specified Wi-Fi network and can repeatedly check different networks as needed.
